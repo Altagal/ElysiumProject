@@ -1,0 +1,27 @@
+{
+    "cards": [
+        {
+            "slug": "arco",
+            "nome": "Arco",
+            "raridade": "Comum",
+            "propriedade": [
+                "2 mãos"
+            ],
+            "tipo": {
+                "slug": "arma_a_distancia",
+                "nome": "Arma a Distancia"
+            },
+            "acao": [
+                {
+                    "nome": "Atacar",
+                    "alcance": "30 metros",
+                    "custo": [
+                        "◆◆◆",
+                        "1 Flexa"
+                    ],
+                    "descricao": "Cause 5 de dano Perfurante."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "cards": [
+        {
+            "slug": "escudo",
+            "nome": "Escudo",
+            "raridade": "Comum",
+            "propriedade": [
+                "1 mão"
+            ],
+            "tipo": {
+                "slug": "arma_corpo_a_corpo",
+                "nome": "Arma Corpo a Corpo"
+            },
+            "acao": [
+                {
+                    "nome": "Defender",
+                    "custo": [
+                        "◆◆"
+                    ],
+                    "descricao": "Entre em Pose Defensiva, +5 em Testes de Pericia quem envolvam Ataques contra você."
+                }
+            ]
+        }
+    ]
+}

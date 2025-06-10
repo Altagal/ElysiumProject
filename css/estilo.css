@@ -1,4 +1,17 @@
+@media print {
+    .page-break {
+        page-break-before: always;
+    }
+
+    .dont-print {
+        display: none;
+    }
+}
+
 body {
-    margin: 1cm;
-    box-sizing: border-box;
+    max-width: 210mm;
+}
+
+p {
+    text-align: justify;
 }

@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elysium - Livro do Mundo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="css/estilo.css" rel="stylesheet">
+</head>
+
+<body class="mx-auto" data-bs-theme="dark">
+    <div class="position-fixed bottom-0 end-0 dont-print">
+        <div class="col m-3">
+            <div class="row">
+                <button onclick="toogle_dark_mode()" class="btn btn-secondary rounded-circle "><i
+                        class="fa-solid fa-circle-half-stroke"></i></button>
+            </div>
+            <div class="row mt-2">
+                <button onclick="window.print()" class="btn btn-secondary rounded-circle "><i
+                        class="fa-solid fa-print"></i></button>
+            </div>
+            <div class="row mt-2">
+                <a href="#sumario" class="btn btn-secondary rounded-circle "><i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h1 class="text-center mt-4">Elysium</h1>
+        <h5 class="text-center mt-4">Livro do Mundo</h5>
+        <div class="text-center mt-4">
+            <img src="img/logo-livro-base.png" alt="Logotipo Elysium Livro Base"
+                style="max-width:10cm; max-height:10cm; width:auto; height:auto;">
+        </div>
+        <h5 class="text-center mt-4">Gustavo Macêdo Jordão</h5>
+        <div class="page-break"></div>
+
+        <h2 id="sumario" class="text-center mt-4">Sumario</h2>
+        <ul class="pl-0">
+            <li><a href="#jogando-o-jogo"><strong>Jogando o Jogo</strong></a></li>
+            <li><a href="#atributos-e-pericias"><strong>Atributos e Perícias</strong></a></li>
+            <li><a href="#teste-de-pericia"><strong>Teste de Perícia</strong></a></li>
+            <li><a href="#evolucao-dos-dados"><strong>Evolução dos Dados</strong></a></li>
+            <li><a href="#acoes"><strong>Ações</strong></a></li>
+            <li><a href="#combate"><strong>Combate</strong></a></li>
+            <li><a href="#habilidades"><strong>Habilidades</strong></a></li>
+            <li><a href="#armas-e-equipamentos"><strong>Armas e Equipamentos</strong></a></li>
+            <li><a href="#tipos-de-dano"><strong>Tipos de Dano</strong></a></li>
+            <li><a href="#resistencias"><strong>Resistências</strong></a></li>
+            <li><a href="#condicoes"><strong>Condições</strong></a></li>
+        </ul>
+        <div class="page-break"></div>
+
+        <h2 id="jogando-o-jogo">Jogando o Jogo</h2>
+        <hr>
+
+        <div class="page-break"></div>
+
+        <h2 id="atributos-e-pericias">Atributos e Pericias</h2>
+        <hr>
+        <table class="table table-bordered">
+            <tbody>
+                <tr>
+                    <td colspan="3">Mundo das Ideias</td>
+                </tr>
+                <tr>
+                    <td rowspan="6">Mente</td>
+                    <td>Inteligência</td>
+                    <td>Desafios lógicos, Cálculos Matemáticos</td>
+                </tr>
+                <tr>
+                    <td>Criptografia</td>
+                    <td>
+                        Resolver quebra-cabeças, Relacionar Pensamentos soltos, Aprender Linguagens novas ou entender
+                        sotaques e variantes de uma já conhecida,
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conceito</td>
+                    <td>Compreender o abstrato, Compreender conceitos complexos, Compreender Arte, Compreender
+                        Filosofia,
+                        Compreender Valor Monetário, </td>
+                </tr>
+                <tr>
+                    <td>Criatividade </td>
+                    <td>Pensar em solução de problemas</td>
+                </tr>
+                <tr>
+                    <td>Conhecimento</td>
+                    <td>Recordar História, Experiência Profissional, Cultura local</td>
+                </tr>
+                <tr>
+                    <td>Engenharia </td>
+                    <td> - </td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Persona</td>
+                    <td>Lábia</td>
+                    <td>Persuasão, Dramatização, Dissimulação</td>
+                </tr>
+                <tr>
+                    <td>Glamour</td>
+                    <td>Charme, Sedução, Beleza, Atração</td>
+                </tr>
+                <tr>
+                    <td>Empatia</td>
+                    <td>Compreensão interpessoal, Compreensão com animais</td>
+                </tr>
+                <tr>
+                    <td>Atitude</td>
+                    <td>Intimidação, Ocultação da presença</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Presença</td>
+                    <td>Vontade</td>
+                    <td>Devoção, Fé, Coragem, Determinação, Exceder Limites Físicos e Espirituais</td>
+                </tr>
+
+                <tr>
+                    <td>Arcanismo</td>
+                    <td>Sentir energias, afinidade com o místico</td>
+                </tr>
+                <tr>
+                    <td>Sobrenatural</td>
+                    <td>Sexto-sentido, afinidade com o pós-vida</td>
+                </tr>
+                <tr>
+                    <td>Compostura</td>
+                    <td>Firmeza intrapessoal, Coragem, Autodomínio, Resiliência, Resistir a vícios, Resistir a
+                        tentações,
+                        Resistir a influências externas</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Sentido</td>
+                    <td>Intuição</td>
+                    <td>Instinto, Leitura de micro expressões corporais, Leitura do ambiente, captar intenções, Sentido
+                        Aranha</td>
+                </tr>
+                <tr>
+                    <td>Coordenação</td>
+                    <td>Coordenação Óculo-Manual, Combate corpo a corpo, Artes marciais, Direção de veículos, Jogar
+                        Video-games</td>
+                </tr>
+                <tr>
+                    <td>Percepção</td>
+                    <td>Visão, Audição, Olfato, Paladar</td>
+                </tr>
+                <tr>
+                    <td>Tato</td>
+                    <td>Prestidigitação, Perícia com armas, analisar com o toque</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Corpo</td>
+                    <td>Agilidade</td>
+                    <td>Velocidade de movimento, Inteligência corporal, Furtividade (?)</td>
+                </tr>
+                <tr>
+                    <td>Força</td>
+                    <td>Força física, Potência, Músculo</td>
+                </tr>
+                <tr>
+                    <td>Vigor</td>
+                    <td>Saúde, Regeneração de vida, Metabolismo</td>
+                </tr>
+                <tr>
+                    <td>Resistência</td>
+                    <td>Resistência a Doenças, Resistência a Danos Externos</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Mundo Material</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>A tabela de Atributos e Perícias lista as habilidades e propriedades que uma criatura possui, tanto no âmbito
+            mental quanto no físico e em todo o espectro presente entre eles.</p>
+        <p>Cada Atributo está relacionado a uma área do indivíduo e representa sua habilidade em tal área de forma
+            generalista. </p>
+        <p>Cada Perícia envolve um conjunto de palavras-chave que remetem os desafios mais especificos que elas devem
+            ser utilizadas.</p>
+
+        <h5><b>Mente</b></h5>
+        <p>Ao upar um atributo em Mente, aumente</p>
+        <h5><b>Persona</b></h5>
+        <p>Ao upar um atributo em Persona</p>
+        <h5><b>Presença</b></h5>
+        <p>Ao upar um atributo em Presença, aumente seu ◆ (Ponto de Ação) máximo em +1.</p>
+        <h5><b>Sentido</b></h5>
+        <p>Ao upar um atributo em Sentido</p>
+        <h5><b>Corpo</b></h5>
+        <p>Ao upar um atributo em Corpo,</p>
+        <div class="page-break"></div>
+
+        <h2 id="teste-de-pericia">Teste de Perícia</h2>
+        <hr>
+        <p>Para realizar certas ações que representem um desafio, por menor que seja esse desafio, é necessário realizar
+            um
+            Teste de Perícia para determinar seu sucesso sendo esse um desafio comum ou um Embate. Um Teste de Perícia
+            sempre requer a soma de duas perícias distintas mais o nível de personagem, podendo haver acréscimos de
+            Itens,
+            Feitiços ou outras fontes:</p>
+        <p class="text-center"><b>Resultado = Dado<sub>1</sub> + Dado<sub>2</sub> +
+                Nível + Bônus</b></p>
+        <p>As combinações de perícias utilizadas nos testes são determinadas na descrição de cada Ação, sendo ilustrada
+            a
+            exigência na descrição da ação, com um símbolo de + (mais). </p>
+        <p>“Arrombar fechadura: Tato + Coordenação”</p>
+        <p>“Identificar doença: Conhecimento + Inteligência”</p>
+        <p>Se uma ação não estiver uma descrição no manual, as perícias usadas no teste serão escolhidas pelo Narrador.
+        </p>
+        <p>Os desafios que utilizam a lista de Nivel de Dificuldade são aqueles que não disputam contra as perícias de
+            outra
+            criatura, sendo sua dificuldade determinada pelo Narrador. Levantar um objeto muito pesado, Tentar manter-se
+            imovel ou Decifrar um pergaminho são desafios que dependem apenas da perícia da criatura para seu sucesso,
+            então
+            utilizam o Nível de Dificuldade para determinar a dificuldade.
+        </p>
+        <h5>Níveis de Dificuldade</h5>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Dificuldade</th>
+                    <th>Resultado</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Falha Automática</td>
+                    <td>1 em ambos os dados</td>
+                    <td>A Sorte não estava ao seu lado. O resutlado do Teste pode gerar uma concequencia desastrosa.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rotineira</td>
+                    <td>4 ~ 6</td>
+                    <td>Tarefa trivial, facilmente realizavel mesmo para um iniciante.</td>
+                </tr>
+                <tr>
+                    <td>Fácil</td>
+                    <td>7 ~ 9</td>
+                    <td>Exige um pouco de preparo.</td>
+                </tr>
+                <tr>
+                    <td>Mediana</td>
+                    <td>10 ~ 12</td>
+                    <td>Testa habilidades medianas.</td>
+                </tr>
+                <tr>
+                    <td>Desafiadora</td>
+                    <td>13 ~ 15</td>
+                    <td>Um obstáculo notável, exige talento real.</td>
+                </tr>
+                <tr>
+                    <td>Difícil</td>
+                    <td>16 ~ 18</td>
+                    <td>Uma tarefa complicada.</td>
+                </tr>
+                <tr>
+                    <td>Muito Difícil</td>
+                    <td>19~21</td>
+                    <td>Para especialistas ou sorte excepcional.</td>
+                </tr>
+                <tr>
+                    <td>Heroica</td>
+                    <td>22 ~ 24</td>
+                    <td>Para feitos épicos e heróicos.</td>
+                </tr>
+                <tr>
+                    <td>Lendária</td>
+                    <td>23 ~ 25+</td>
+                    <td>Quase impossível. Coisas de lenda.</td>
+                </tr>
+                <tr>
+                    <td>Sucesso Automático</td>
+                    <td>Maior número possível em ambos os dados</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>“Vocês são pegos de surpresa pelo terremoto. Todos façam um teste de Compostura com Agilidade para manterem o
+            equilíbrio e não caírem no chão.”</p>
+        <p>“No pedaço de papel você vê um texto escrito a caneta, letras e símbolos, se misturam e você vê que é um
+            texto criptografado. Para tentar decifrar até o amanhecer, role um teste de Criptografia mais Criatividade
+        </p>
+        <h5>Embate</h5>
+        <p>Um Embate ocorre quando uma ação é feita, mas seu resultado encontra resistência de outra criatura, seja ela
+            um personagem do Narrador ou de outro Jogador, assim, as duas criaturas rolam um Teste de Perícia, quem
+            possuir o resultado maior vence o embate, realizado com sucesso sua ação ou resistindo a ação da outra
+            criatura.
+        </p>
+        <p>“Quero domar este cavalo selvagem.”</p>
+        <p>“Ok, faça um teste de Empatia e Compostura. O cavalo vai tentar resistir com Vontade e Compostura.”</p>
+        <div class="page-break"></div>
+
+        <h2 id="teste-de-pericia">Teste de Pericia</h2>
+        <p>Para realizar certas ações que representem um desafio, por menor que seja esse desafio, é necessário realizar
+            um
+            Teste de Perícia para determinar seu sucesso sendo esse um desafio comum ou um Embate. Um Teste de Perícia
+            sempre requer a soma de duas perícias distintas mais o nível de personagem, podendo ser ter acréscimos de
+            Itens,
+            Feitiços ou outras fontes:
+        </p>
+        <div class="page-break"></div>
+
+        <h2 id="evolucao-dos-dados">Evolução dos Dados</h2>
+        <hr>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Nível</th>
+                    <th>Dado Rolado</th>
+                    <th>Soma ao teste</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1º</td>
+                    <td>1d2</td>
+                    <td>+1</td>
+                </tr>
+                <tr>
+                    <td>2º</td>
+                    <td>1d4</td>
+                    <td>+2</td>
+                </tr>
+                <tr>
+                    <td>3º</td>
+                    <td>1d6</td>
+                    <td>+3</td>
+                </tr>
+                <tr>
+                    <td>4º</td>
+                    <td>1d8</td>
+                    <td>+4</td>
+                </tr>
+                <tr>
+                    <td>5º</td>
+                    <td>1d10</td>
+                    <td>+5</td>
+                </tr>
+                <tr>
+                    <td>6º</td>
+                    <td>1d12</td>
+                    <td>+6</td>
+                </tr>
+                <tr>
+                    <td>7º</td>
+                    <td>1d20</td>
+                    <td>+7</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="page-break"></div>
+
+        <h2 id="acoes">Ações</h2>
+        <hr>
+        <h5>Entrar em Pose</h5>
+        <p>Entrar em pose quer dizer que alguem se preparou para uma situação ou esta preparado para reagir a um evento.
+            Enquanto alguem esta em uma pose, realizar ações e reações especiais ou receber bonus.</p>
+        <p>Uma pose é desfeita quando o personagem se movimenta. Apenas
+            uma pose pode ser feita por vez e ao entrar em uma pose nova a anterior é desfeita.</p>
+
+        <h5>Consumir Item</h5>
+        <p>Após consumir um item ele fica inutilizado de sua função inicial.</p>
+        <h5>Reação</h5>
+        <p>Ação que pode ser realizada após um evento engatilhar o requisito dela.</p>
+        <p>Em caso de multiplas reações serem engatilhadas por uma ação, as ações declaradas por ultimo serão realizadas
+            primeiro.</p>
+        <div class="page-break"></div>
+
+        <h2 id="combate">Combate</h2>
+        <hr>
+        <p>O combate é um momento especial em que a ordem de ação é bem importante. Quando em combate, as ações possuem
+            consomem pontos de ação. </p>
+        <h5>Ação</h5>
+        <p>Possuem acionamentos que devem ser atendidos para você poder usar a reação em questão. Você pode
+        </p>
+        <h5>Rodada, Turnos e Fases</h5>
+        <p>Rodada e Turno são intervalos de tempo em quem um personagem realiza suas Ações enquanto estiver em Combate.
+            Uma
+            Rodada tem duração de 6 segundos e os turnos dos personagens acontecem simultanemante. Quando o ultimo
+            personagem na fila de turnos finalizar seu turno, tera terminado uma Rodada.
+        </p>
+        então as ações de um personagem sao limitadas por este periodo de tempo. A ordem dos
+        turnos de cada personagem é definida pela sua ...
+        <p>Um Turno é compoto por Fases. As Fazes servem para engatilhar eventos </p>
+        <ul>
+            <li><b>Fase Inicial</b>: São acionados os eventos que mencionam "no inicio do turno". A Fase Inicial começa
+                quando o Turno de uma Criatura se inicia e termina quando todos os eventos são realizados.</li>
+            <li><b>Fase de Ação</b>: Momento em que o pesonagem pode realizar Ações. A Fase de Ação termina quando é
+                declarada o Fim do Turno da Criatura.</li>
+            <li><b>Fase Final</b>: São acionados os eventos que mencionam "no fim do turno". A Fase Final se inicia
+                quando a
+                Fase de Ação termina e termina quando todos os eventos são realizados.</li>
+        </ul>
+        </p>
+        <h5>Ponto de Ação</h5>
+        <p>Pontos de Ação representam o tempo consumido para realizar uma Ação dentro de um Turno enquando estão em
+            Combate.</p>
+        <p>Pontos de Ação são representados por ◆. Ações, como Feitiços, possuem em sua descrição o custo necessario
+            para
+            ser ultilizados quando em Combate.</p>
+        <p>Ao inicio do turno cada criatura, todos os Pontos de Ação remanecentes dela são descartados e então
+            recupera-se
+            Pontos de Ação igual seu limite maximo.</p>
+        <p>Ações, com exeção de Conjurações, acumulam Pontos de Ação investidos, ou seja, se a Ação de Arrobar Fechadura
+            precisar de 10◆ para ser realizada e você possui apenas 5◆ a cada turno, em um Turno você pode gastar 5◆
+            para realizar a ação, no turno seguinte atacar e por fim, no ultimo turno, gastar mais 5◆ completar a Ação.
+        </p>
+
+
+        <h5>Movimentação, Distancia Absoluta e Distância Relativa</h5>
+
+        <h5>Distância Absoluta</h5>
+        <p></p>
+
+        <h5>Distância Relativa</h5>
+        <p>
+            Em vez de medir cada metro exato durante o combate, utiliza-se o conceito de Distância Relativa para
+            simplificar. Para essa distancia, defini-se que um corredor mediano alcance 30 metros de movimentação em um
+            turno. Essa criaduta não possui bonus ou bensaos que ajudem ela a correr distancias maiores.
+            o posicionamento dos personagens. As categorias são:
+        </p>
+        <ul>
+            <li><b>Corpo a Corpo/Ao seu lado:</b> Adjacente. Alcançe de toque e ataques corpo a corpo. 5 metros ou
+                menos, aproximadamente.</li>
+            <li><b>Perto:</b> Proximo, mas não a distancia de toque. Possível alcançar com uma movimentação curta.
+                Entre 5 a 20 metros, aproximadamente.</li>
+            <li><b>Longe:</b> Distância que exige uma movimentação completa de um corredor mediano para alcançar. Entre
+                25 a 35 metros, aproximadamente.
+            </li>
+            <li><b>Muito Longe:</b> Distancia em que não é possivel alcançar em um turno de um corredor mediano,
+                ultilizando a movimenação
+                completa. Entre 40 a 50 metros.</li>
+            <li><b>Fora de Alcance:</b> Distância que exige múltiplas ações de movimento para alcançar. Acima de 60
+                metros.
+            </li>
+        </ul>
+        <p>
+            A movimentação durante o combate permite que um personagem mude sua distância relativa em relação a
+            outros,
+            aproximando-se ou afastando-se conforme necessário.
+        </p>
+        <h5>Ordem de Ação</h5>
+        <p></p>
+        <h5>Reações</h5>
+        <p>São Ações engatilhadas por uma evento .</p>
+        <h5>Ação livre</h5>
+        <p>São ações que não necessitam de ◆ para serem realizadas.
+            Falar é uma ação livre,
+        </p>
+        <h5>Ataque desarmado</h5>
+        <p>◆◆◆: Realize um ataque</p>
+
+        <h5>Desequipar Equipamento</h5>
+        <p>◆: Desequipe um equipamento.</p>
+        <div class="page-break"></div>
+
+        <h2 id="habilidades">Habilidades</h2>
+        <hr>
+        <h4>Punhos Ágeis</h4>
+        <p>Se sua última ação neste turno foi um ataque desarmado, seu próximo ataque desarmado custa ◆.</p>
+        <h4>Flecha Dupla</h4>
+        <p>Quando você escolher uma Criatura Alvo para sofrer um Ataque com Arco, consuma um Projetil a mais para Atacar
+            outra Criatura alem da primeira. Utilize o mesmo resultado do Ataque para os dois Alvos.</p>
+        <div class="page-break"></div>
+
+        <h2 id="armas-e-equipamentos">Armas e Equipamentos</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, eos. Illo totam veritatis voluptatibus
+            atque
+            omnis accusantium nam, asperiores, aliquid vero perspiciatis ullam saepe dolorem repudiandae? Temporibus
+            beatae
+            iusto at!</p>
+        <h5>Corpo a Corpo</h5>
+        <hr>
+        <h5>Espada</h5>
+        <p>
+            Comum - 1 mão
+        </p>
+        <p><b>Atacar</b> - 5 metros<br>
+            ◆◆◆: Cause 5 de dano Cortante.</p>
+        <h5>Rapieira</h5>
+        <p>
+            Comum - 1 mão
+        </p>
+        <p><b>Atacar</b> - 5 metros<br>
+            ◆◆◆: Cause 5 de dano Perfurante.</p>
+        <h5>Martelo</h5>
+        <p>
+            Comum - 1 mão
+        </p>
+        <p><b>Atacar</b> - 5 metros<br>
+            ◆◆◆: Cause 5 de dano Contundente.</p>
+        <h5>Lança</h5>
+        <p>
+            Comum - 2 mãos
+        </p>
+        <p><b>Atacar</b> - 15 metros<br>
+            ◆◆◆: Cause 5 de dano Perfurante.</p>
+
+
+        <h5>A Distância</h5>
+        <hr>
+        <h5>Arco</h5>
+        <p>
+            Comum - 2 mãos
+        </p>
+        <p><b>Atacar</b> - 30 metros<br>
+            ◆◆◆1 Flexa: Cause 5 de dano Perfurante.</p>
+
+        <h5>Consumíveis</h5>
+        <hr>
+
+        <h5>Poção de Cura</h5>
+        <p>
+            Comum
+        </p>
+        <p><b>Consumir</b><br>
+            ◆◆: Recupere 5 Pontos de Vida</p>
+
+
+        <div class="page-break"></div>
+
+        <h2 id="tipos-de-dano">Tipos de Dano</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At et odit deleniti soluta facilis quas sunt
+            facere
+            magni officiis commodi nisi odio culpa omnis sequi, similique alias corporis qui aspernatur!</p>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Tipo de Dano</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Perfurante</td>
+                    <td>Perfuração, grande força em uma pequena área de ação</td>
+                </tr>
+                <tr>
+                    <td>Cortante</td>
+                    <td>Afiado</td>
+                </tr>
+                <tr>
+                    <td>Contundente</td>
+                    <td>Queda, impacto, Esmagamento</td>
+                </tr>
+                <tr>
+                    <td>Radioativo</td>
+                    <td>Radioatividade, Energia em frequências prejudiciais ao indivíduo, Causa câncer</td>
+                </tr>
+                <tr>
+                    <td>Ígneo</td>
+                    <td>Fogo, Calor</td>
+                </tr>
+                <tr>
+                    <td>Elétrico</td>
+                    <td>Uma carga de energia muito forte, eletricidade</td>
+                </tr>
+                <tr>
+                    <td>Psíquico</td>
+                    <td>Afeta a psique do indivíduo, podendo ser causado por loucura, alucinações, apatia</td>
+                </tr>
+                <tr>
+                    <td>Venenoso</td>
+                    <td>Substância prejudicial ao indivíduo.</td>
+                </tr>
+                <tr>
+                    <td>Corrosivo</td>
+                    <td>Ácido</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="page-break"></div>
+
+        <h2 id="resistencias">Resistências</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At reprehenderit repellendus maxime hic mollitia
+            animi
+            consequuntur obcaecati quis quod ratione laborum praesentium magnam, cum possimus nemo. Quas id earum
+            nisi.
+        </p>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Resistência</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Resistência a Frio</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Resistência ao Calor</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Resistência à Radioatividade</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Resistência à Corrosão</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="page-break"></div>
+
+        <h2 id="condicoes">Condições</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eveniet tenetur voluptatem quis, commodi
+            modi
+            deserunt, minima aspernatur ad aperiam adipisci dicta, culpa explicabo ipsam suscipit iusto nostrum. Id,
+            quam.
+        </p>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Condição</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Amedrontado</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Cego</td>
+                    <td>Um personagem Cego não pode realizar ações que envolvam a visao e falham automaticamente em
+                        qualquer
+                        teste que envolva a visão.</td>
+                </tr>
+                <tr>
+                    <td>Ensurdecido</td>
+                    <td>Um personagem Ensurdecido não pode realizar ações que envolvam a audição e falham
+                        automaticamente em
+                        qualquer teste que envolva a audição.</td>
+                </tr>
+                <tr>
+                    <td>Paralizado</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="page-break"></div>
+        <div>
+            <h2 class="text-center m-5">Fim</h2>
+        </div>
+    </div>
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+        integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/55618380aa.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

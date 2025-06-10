@@ -1,0 +1,49 @@
+{
+    "cards": [
+        {
+            "slug": "punhos-ageis",
+            "nome": "Punhos Ágeis",
+            "tipo": {
+                "slug": "habilidade",
+                "nome": "Habilidade"
+            },
+            "descricao": "Se sua última ação neste turno foi um ataque desarmado, seu próximo ataque desarmado custa ◆."
+        },
+        {
+            "slug": "flecha-dupla",
+            "nome": "Flecha Dupla",
+            "tipo": {
+                "slug": "habilidade",
+                "nome": "Habilidade"
+            },
+            "descricao": "Quando você escolher uma Criatura Alvo para sofrer um Ataque com Arco, consuma um Projetil a mais para Atacar outra Criatura alem da primeira. Utilize o mesmo resultado do Ataque para os dois Alvos."
+        },
+        {
+            "slug": "saque-rapido",
+            "nome": "Saque Rápido",
+            "tipo": {
+                "slug": "habilidade",
+                "nome": "Habilidade"
+            },
+            "descricao": "Se não possuir uma arma equipada, você pode equipar uma Arma Leve sem pagar seu custo de ação."
+        },
+        {
+            "slug": "velocista",
+            "nome": "Velocista",
+            "tipo": {
+                "slug": "habilidade",
+                "nome": "Habilidade"
+            },
+            "descricao": "Aumente a distância de movimentação em +10 metros."
+        },
+        {
+            "slug": "calmaria-antes-da-tempestade",
+            "nome": "Calmaria antes da Tempestade",
+            "tipo": {
+                "slug": "habilidade",
+                "nome": "Habilidade"
+            },
+            "descricao": "◆◆: Entre na pose Plenitude e finalize seu turno, esta pose é desfeita se você usar uma ação. Apos o inicio de seu proximo turno, quando Plenitude é desfeita receba ◆◆◆. Estes pontos de ação não contam para seu limite maximo."
+        }
+    ]
+}
