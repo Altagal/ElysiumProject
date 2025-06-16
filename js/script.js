@@ -9,7 +9,7 @@ function prepare_template(template_id, deck_name) {
 }
 
 
-function toogle_dark_mode() {
+function toogle_mode() {
     const body = document.body;
     const currentTheme = body.getAttribute("data-bs-theme");
     const newTheme = currentTheme === "dark" ? "light" : "dark";
@@ -20,6 +20,7 @@ function toogle_dark_mode() {
 window.onload = function () {
     // se o sistema estive em darkmode, torna doc darkmode ao carregar pagina
     const prefersDark = window.matchMedia('(prefers-color-scheme: light)');
+    
     if (prefersDark.matches) {
         const body = document.body;
         const currentTheme = body.getAttribute("data-bs-theme");

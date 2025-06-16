@@ -1,0 +1,30 @@
+i.icon::before {
+  /* transform: scale(0.05); */
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  transform-origin: left top;
+}
+
+i.icon.d20::before {
+  content: url('../icon/d20.svg');
+
+}
+
+/* 
+
+.custom_icon::before {
+  content: url('https://svgsilh.com/svg/614515.svg');
+  max-height: 17px;
+  max-width: 13px;
+  transform: scale(0.009);
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+  position: absolute;
+  transform-origin: left top;
+
+} 
+  
+<span class="custom_icon"></span>
+
+*/
