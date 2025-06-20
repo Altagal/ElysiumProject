@@ -10,6 +10,7 @@
 
 body {
     max-width: 210mm;
+    font-family: 'Garamond' ;
 }
 
 p {
@@ -20,7 +21,8 @@ hr {
     margin-top: 0;
 
 }
-a{
+
+a {
     color: inherit;
     text-decoration: none;
 }

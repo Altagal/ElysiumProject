@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "ElysiumIcon";
+    src: url("../fonts/ElysiumIcon.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: ElysiumIcon;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+
+.icon-d20:before {
+    content: "\e000";
+
+}
+.icon-d12:before {
+    content: "\e001";
+
+}
+
+.icon-d10:before {
+    content: "\e002";
+
+}
+
+.icon-d8:before {
+    content: "\e003";
+
+}
+
+.icon-d6:before {
+    content: "\e004";
+
+}
+
+.icon-d4:before {
+    content: "\e005";
+
+}
+
+.icon-d2:before {
+    content: "\e006";
+
+}
