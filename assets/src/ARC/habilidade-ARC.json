@@ -1,0 +1,29 @@
+[
+    {
+        "slug": "ritualista",
+        "nome": "Ritualista",
+        "tipo": {
+            "slug": "habilidade",
+            "nome": "Habilidade"
+        },
+        "descricao": "Você pode ignorar a necessidade de um dos ingredientes necessários para a realização de um ritual.<br><br>Reduza o tempo necessário para a realização de um Feitiço Ritual em 1 hora para cada ponto de Arcanismo que você possuir. Essa habilidade não pode diminuir o tempo de conjuração de um Feitiço de Ritual além de 1 hora."
+    },
+    {
+        "slug": "conjuração-rapida",
+        "nome": "Conjuração Rápida",
+        "tipo": {
+            "slug": "habilidade",
+            "nome": "Habilidade"
+        },
+        "descricao": "Se um feitiço não-ritual custar ◆◆◆ para ser conjurado, você pode conjurá-lo por ◆◆."
+    },
+    {
+        "slug": "concentração-expandida",
+        "nome": "Concentração Expandida",
+        "tipo": {
+            "slug": "habilidade",
+            "nome": "Habilidade"
+        },
+        "descricao": "Aumente em +1 a quantidade de feitiços que você pode ter Concentrado ao mesmo tempo."
+    }
+]

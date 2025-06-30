@@ -1,0 +1,21 @@
+[
+    {
+        "slug": "poção de cura",
+        "nome": "Poção de Cura",
+        "raridade": "Comum",
+        "propriedade": [],
+        "tipo": {
+            "slug": "consumivel",
+            "nome": "Consumivel"
+        },
+        "acao": [
+            {
+                "nome": "Consumir",
+                "custo": [
+                    "◆◆"
+                ],
+                "descricao": "Recupere 5 Pontos de Vida"
+            }
+        ]
+    }
+]

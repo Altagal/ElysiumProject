@@ -11,6 +11,7 @@
 body {
     max-width: 210mm;
     font-family: 'Garamond';
+    font-size: 100%;
 }
 
 p {
